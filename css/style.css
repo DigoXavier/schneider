@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+
+.im-logo{
+    background-image: url(../img/Schneider_Electric_Logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+    height: 39px;
+}
+
+.im-logo2{
+    background-image: url(../img/Logo_FIAP.png);
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 111px;
+    height: 39px;
+}
+
+#nv1{
+    background-color: #3ACC61;
+    min-height: 54px;
+    padding: 0% 10% 0% 10%;
+}
+
+#bar1{
+    --bs-navbar-padding-x:var(--bs-navbar-padding-x);
+    min-height: 54px;
+    
+}
+
+#itens{
+    
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.nav-link {
+    margin: 0 10px;
+}
+
+.btn-1{
+    transition: transform 100ms linear;
+}
+
+.btn-1:hover{
+    transform: scale(1.10);
+}
+
+.fundo{
+    --bs-gutter-x:0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#txt1{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 70px;
+}
+
+#img > img{
+    width: 60px;
+    animation: jumping 1s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes jumping{
+    from{transform: translateY(-15px);}
+    50%{transform: translateY(0);}
+    to{transform: translateY(-15px);}
+}
+
+.conteudo {
+    height: 100vh;
+}
+

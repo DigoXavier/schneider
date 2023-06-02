@@ -23,6 +23,7 @@ body{
     background-color: #3ACC61;
     min-height: 54px;
     padding: 0% 10% 0% 10%;
+    position: fixed;
 }
 
 #bar1{
@@ -31,8 +32,8 @@ body{
     
 }
 
-#itens{
-    
+.navbar{
+    align-items: start;
 }
 
 @media (min-width: 992px){

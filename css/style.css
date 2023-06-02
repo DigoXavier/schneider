@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Patua One', cursive;
 }
 
 .im-logo{
@@ -23,16 +24,14 @@ body{
     background-color: #3ACC61;
     min-height: 54px;
     padding: 0% 10% 0% 10%;
+    position: fixed;
+    z-index: 999;
 }
 
 #bar1{
     --bs-navbar-padding-x:var(--bs-navbar-padding-x);
-    min-height: 54px;
-    
-}
-
-#itens{
-    
+    min-height: 54px; 
+    align-items: start;
 }
 
 @media (min-width: 992px){
@@ -42,6 +41,17 @@ body{
     }
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    color: #838383;
+}
+
+.ap1 h1,h5{
+    color: black;
+}
+
+a button h1{
+    color: black;
+}
 .nav-link {
     margin: 0 10px;
 }
@@ -66,11 +76,17 @@ body{
     text-align: center;
 }
 
+.ap1 h5{
+    text-align: left;
+    margin: 8%;
+}
+
 #img{
     display: flex;
     justify-content: center;
     align-items: flex-end;
     margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 #img > img{
@@ -89,3 +105,240 @@ body{
     height: 100vh;
 }
 
+.t1{
+    /* margin-top: 20%; */
+}
+
+.thumbnail-wrapper {
+    display:inline-block;
+    position:relative;
+    --bs-gutter-x:0;
+}
+.thumbnail-wrapper button {
+    position:absolute;
+    top:58.0%;
+    left:50.1%;
+    -webkit-transform:translate3d(-0%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+}
+
+#btn-3{
+    width: 61.5%;
+    height: 39%;
+    /* opacity: 0%; */
+    border-radius: 7.2%;
+    background-color: #00000000;
+    color: aliceblue;
+    border-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#btn-3:hover{
+    opacity: 100%;
+    transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+#btn-3:hover h1{
+    transform: scale(1.2);
+}
+
+#btn-3 h1{
+    transition: 500ms;
+}
+
+.ap1{
+    background-color: #3ACC61;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.fnd1{
+    min-width: 98.7%;
+    --bs-gutter-x:0;
+}
+
+.ytvideo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.ytvideo h1{
+    font-size: 500%;
+}
+/* width: 44.5%;
+height: 34%; */
+
+.ytvideo button{
+    margin-top: 20%;
+}
+
+.stxt h1{
+    font-size: 3.3rem;
+}
+
+
+#rnk{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rank{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rank h1{
+    margin-bottom: 3%;
+}
+
+.acdn1{
+    	--bs-body-color:rgb(255, 255, 255);
+        --bs-body-bg:rgb(0, 0, 0);
+        --bs-dark-text-emphasis:white;
+        margin-top: 1%;
+}
+
+.accordion-header h2{
+    color: aliceblue;
+}
+
+.tp1{
+    margin-top: 10%;
+}
+
+.footer{
+    height: 200px;
+    background: #0c0c0c;
+}
+
+.stxt{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quizxx{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding:0 4%;
+    margin: auto;
+    display: flex;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #838383;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col{
+    list-style: none;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li{
+    margin: 10px 0;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    color: #3ACC61;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #227939;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width:1020px){
+    .t1{
+        display: block;
+    }
+
+    iframe{
+        width: 340px;
+        height: 250px;
+    }
+
+    .ytvideo h1{
+        font-size: 300%;
+    }
+
+    .ap1 h5{
+        margin: 3%;
+    }
+
+    .stxt h1{
+        font-size: 1.8rem;
+    }
+
+    #img{
+        margin: 0;
+        opacity: 0;
+        height: 0;
+    }
+
+    #txt1{
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and(max-width:991px){
+    .navbar-nav{
+        margin-top: 100%;
+    }
+}
+
+@media screen and (min-width:1020px){
+    .carousel-item{
+        min-height: 100;
+    }
+    
+    .carousel-inner{
+        height: 40em;
+    }
+}

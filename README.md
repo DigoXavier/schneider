@@ -1,0 +1,1 @@
+Esse projeto foi um desafio em que a empresa schneider propôs para nós alunos do curso de engenharia de software da FIAP, a desenvolver uma plataforma online que contém informações sobre sustentabilidade, e uma comunidade em que os funcionários da schneider consiga interagir entre si, dando dicas uns aos outros de como serem mais sustentáveis em casa.

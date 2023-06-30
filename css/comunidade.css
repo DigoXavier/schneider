@@ -116,6 +116,14 @@ body{
     margin-left: 0.5rem;
 }
 
+p{
+    font-weight: 100;
+}
+
+p b{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 .container-footer{
     max-width: 1400px;
     padding:0 4%;
@@ -172,4 +180,11 @@ body{
 .footer-col ul li a:hover{
     color: #227939;
     padding-left: 10px;
+}
+
+.sxct{
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

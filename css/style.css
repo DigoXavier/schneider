@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #070707;
     font-family: 'Patua One', cursive;
 }
 
@@ -204,7 +204,7 @@ height: 34%; */
 
 .acdn1{
     	--bs-body-color:rgb(255, 255, 255);
-        --bs-body-bg:rgb(0, 0, 0);
+        --bs-body-bg:#070707;
         --bs-dark-text-emphasis:white;
         margin-top: 1%;
 }
@@ -342,3 +342,30 @@ height: 34%; */
         height: 40em;
     }
 }
+
+.sct1{
+    max-height: 30vh;
+}
+
+.mgb{
+    margin-bottom: 6%;
+    max-width: 1124px;
+}
+
+.tbl1{
+    background-color: #3ACC61;
+    margin-bottom: 10%;
+}
+
+.imggra{
+    max-height: 80vh;
+}
+
+.cnt-2{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
